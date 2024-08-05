@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cryptex</h1>
+        <input type="text" id="nameInput" placeholder="Nombre de la pareja">
+        <input type="text" id="codeInput" maxlength="6" placeholder="Ingresa el código de 6 dígitos">
+        <button onclick="unlockCryptex()">Desbloquear</button>
+        <div id="messageContainer">
+            <p id="message"></p>
+        </div>
+        <div id="morseSection" style="display: none;">
+            <p>Para encontrar la respuesta final, descifra este mensaje en código Morse:</p>
+            <p id="morseMessage"><strong>.--. .-. --- - --- -.-. --- .-.. --- / -.-- / . - .. --.- ..- . - .-</strong></p>
+            <p>Para verificar tu respuesta, suma los valores numéricos de las letras de las tres palabras y divide el resultado por 2.</p>
+            <input type="number" id="morseAnswerInput" placeholder="Ingresa el resultado">
+            <button onclick="verifyMorseAnswer()">Verificar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

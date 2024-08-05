@@ -1,0 +1,76 @@
+body {
+    font-family: 'Garamond', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/old-map.png');
+    background-size: cover;
+    color: #4b3832;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 20px;
+    border: 2px solid #4b3832;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4b3832;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b2e28;
+}
+
+p {
+    font-size: 18px;
+}
+
+#message {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 224, 0.8); /* Papiro antiguo */
+    border: 2px solid #4b3832;
+    border-radius: 5px;
+    font-family: 'Papyrus', fantasy;
+}
+
+#morseSection {
+    margin-top: 20px;
+}
+
+#morseMessage {
+    background: rgba(255, 255, 224, 0.8); /* Papiro antiguo */
+    border: 2px solid #4b3832;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Papyrus', fantasy;
+}
